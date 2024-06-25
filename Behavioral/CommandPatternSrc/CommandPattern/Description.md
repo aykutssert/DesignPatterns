@@ -4,6 +4,8 @@ If we explain with an example:
 
 - In the Command Design Pattern, we have one general command. We send a specific command to trigger the Invoker. These specific commands implement the general command. The function works for which device the specific command is used. It is a behavioral design model.
 
+- We can combine command objects using the composite pattern, thus obtaining macroCommand.
+
 ### Components of the Command Design Pattern
 
 1. Command Interface
